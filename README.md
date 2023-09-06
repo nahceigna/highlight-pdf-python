@@ -30,9 +30,9 @@ git clone https://github.com/nahceigna/highlight-pdf-python.git
 
 **Required arguements:**
 
--p/--file-paths: file paths
+1. -p/--file-paths: file paths
 
--k/--keywords: keywords
+2. -k/--keywords: keywords
 
 All the file paths and keywords have to be separated by comer ','
 
