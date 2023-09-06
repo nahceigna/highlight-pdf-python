@@ -24,9 +24,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description=description, formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     # Adding arguement
-    parser.add_argument("-p", "--file-paths", dest="paths_in_list",
+    parser.add_argument("-p", "--file-paths", dest="paths_in_list", required=True,
                         type=TYPE.extant_file, help="file path")
-    parser.add_argument("-k", "--keywords", dest="keywords_in_list",
+    parser.add_argument("-k", "--keywords", dest="keywords_in_list", required=True,
                         type=TYPE.list_of_keywords, help="keywords in lowercase")
 
     args = parser.parse_args()
