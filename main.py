@@ -6,7 +6,7 @@ This code searches and highlights the keywords for PDF files.
 
 Documentations:
     * https://pymupdf.readthedocs.io/en/latest/document.html#Document.save
-    * https://github.com/pymupdf/PyMuPDF-Utilities/blob/master/word%26line-marking/mark-words.py
+    * https://github.com/pymupdf/PyMuPDF-Utilities/tree/master
 
 TODO: a more organised way to store keywords
 
