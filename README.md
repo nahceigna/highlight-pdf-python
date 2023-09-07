@@ -10,19 +10,29 @@ This projects help users to highlight the keywords and export the PDF files on r
 
 ## Getting Started
 
-To use this project, please follow the following steps.
+To use this project, please follow the following instructions.
 
-### Prerequisites
+1. Clone the GitHub repository
 
-Python is required in this project.
+   Begin by cloning this repository using this command:
 
-### Installation
+   ```
+   git clone https://github.com/nahceigna/highlight-pdf-python.git
+   ```
 
-Clone the repository
+2. Set up the Python environment, replace environment name `highligh_pdf_env` if necessary
 
-```
-git clone https://github.com/nahceigna/highlight-pdf-python.git
-```
+   ```
+   conda create -n highligh_pdf_env python=3.9 -y
+   conda activate highligh_pdf_env
+   ```
+
+3. Install dependencies by navigating to the `highlight-pdf-python` directory and install the required dependancy as follow:
+
+   ```
+   cd highlight-pdf-python
+   pip3 install -r requirements.txt
+   ```
 
 <!-- IMPLEMENTATION -->
 
