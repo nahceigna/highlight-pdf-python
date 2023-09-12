@@ -20,11 +20,11 @@ To use this project, please follow the following instructions.
    git clone https://github.com/nahceigna/highlight-pdf-python.git
    ```
 
-2. Set up the Python environment, replace environment name `highligh_pdf_env` if necessary
+2. Set up the Python environment, replace environment name `highlight_pdf_env` if necessary
 
    ```
-   conda create -n highligh_pdf_env python=3.9 -y
-   conda activate highligh_pdf_env
+   conda create -n highlight_pdf_env python=3.9 -y
+   conda activate highlight_pdf_env
    ```
 
 3. Install dependencies by navigating to the `highlight-pdf-python` directory and install the required dependancy as follow:
